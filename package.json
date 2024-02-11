@@ -1,0 +1,27 @@
+{
+  "name": "datachiefdocs",
+  "version": "1.0.0",
+  "description": "Documentation of DataChief",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataChiefCo/docs.git"
+  },
+  "author": "Rayan Desfossez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DataChiefCo/docs/issues"
+  },
+  "homepage": "https://github.com/DataChiefCo/docs#readme",
+  "dependencies": {
+    "vuepress": "^0.14.11",
+    "braces": ">=2.3.1"
+  }
+}
